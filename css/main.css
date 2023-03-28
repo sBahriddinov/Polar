@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/* <!-- ========= header section start ========= --> */
+.header-section {
+    background: #F2CEDA;
+    height: 780px;
+    width: 100%;
+}
+
+.navbar-main,
+.main-ul {
+    display: flex;
+    align-items: center;
+}
+
+.polar {
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.main-li {
+    padding-left: 40px;
+    list-style-type: none;
+
+}
+
+.main-a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal;
+    color: #150101;
+}
+
+.active {
+    color: #D23166;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-a:hover {
+    color: #D23166;
+    font-weight: bold;
+}
+
+.main-btn {
+    width: 165px;
+    height: 49px;
+    margin-left: 0px;
+    background: #D23166;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-1 
+{
+    margin-left: 170px;
+}
+.head-section {
+    margin-top: 190px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.head-section-left {
+    margin-left: 150px;
+}
+
+.second-p {
+    width: 523px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 60px;
+}
+
+.first-p {
+    padding-bottom: 6px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    color: #0F0101;
+}
+
+.first-h3 {
+    font-size: 57.33px;
+    width: 665px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: normal;
+    color: #0F0101;
+}
+
+.first-span {
+    color: #D23166;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* .btn-2 {
+    margin-left: %;
+} */
+
+.milk,
+.ice-cream,
+.ellipse {
+    position: absolute;
+}
+
+.ice-cream {
+    width: 520px;
+    height: 530px;
+    top: -149px;
+    right: 48px;
+}
+
+.milk {
+    position: absolute;
+    width: 700px;
+    top: -8px;
+    right: -18px;
+    transform: rotate(4.79deg);
+    /* z-index: 11; */
+
+}
+
+.ellipse {
+    width: 250px;
+    margin-left: 100px;
+}
+
+/* <!-- ========= header section ends ========= --> */
+
+/* <!-- ======= Middle section start ======= --> */
+.middle-section {
+    height: 300px;
+}
+
+.middle-ul {
+    margin: 100px 130px;
+    display: flex;
+}
+
+.middle-li {
+    list-style: none;
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    padding-top: 33px;
+    padding-left: 26px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    margin-left: 39px;
+}
+
+.active-li {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+
+}
+
+.car {
+    padding-left: 75px;
+}
+
+.middle-h4 {
+    padding-top: 28px;
+    padding-left: 45px;
+    padding-bottom: 9px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.middle-p {
+    font-family: 'Hind Madura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    width: 198px;
+    line-height: 19px;
+}
+
+/* <!-- ======= Middle section end ======= --> */
+/* <!-- ======= Center section start ======= --> */
+.center-section {
+    background: #F8EDF0;
+    height: 600px;
+}
+
+.center-item {
+    display: flex;
+    align-items: center;
+}
+
+.center-item-left {
+    margin-left: 150px;
+}
+
+.item-h3 {
+    width: 349px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    padding-bottom: 16px;
+}
+
+.item-p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 442px;
+    color: #150101;
+    padding-bottom: 50px;
+}
+
+.item-img {
+    margin-left: 100px;
+}
+
+/* <!-- ======= Center section end ======= --> */
+/* =========== Product section start */
+
+.product-menu {
+    margin-left: 150px;
+}
+
+.section-h3 {
+    margin-top: 97px;
+    margin-bottom: 64px;
+    margin-left: 420px;
+    width: 238px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+}
+
+.section-ul {
+    display: flex;
+    margin-left: 120px;
+}
+
+.section-li {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.section-a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.line-a {
+    border-bottom: 3px solid #D64374;
+}
+
+.section-item {
+    margin-top: 60px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.section-left {
+    margin-top: 30px;
+}
+
+.section-right {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.h3 {
+    width: 152px;
+    height: 36px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.section-p {
+    padding-top: 11px;
+    width: 454px;
+    line-height: 24px;
+    padding-bottom: 34px;
+}
+
+.price {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.btn-3 {
+    margin-top: 20px;
+} 
+
+.price-span {
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Hind Madurai';
+}
+
+.right {
+    text-align: right;
+    width: 444px;
+}
+
+.price-end-section {
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.img-p {
+    display: flex;
+    align-items: center;
+}
+
+.end-h4 {
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.end-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.center-p {
+    width: 322px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+.quot,
+.quot-2 {
+    margin: 0 5px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.boy {
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.girl-end {
+    width: 35px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.end-section-right {
+    margin-left: 240px;
+}
+.btn-5 
+{
+width: 134px;
+height: 74px;
+background: #D64374;
+border-radius: 5px;
+padding: 28px 46px;
+color: #fff;
+margin-left: -138px;
+border: none;
+}
+/* =========== Product section end ========= */
+/* <!-- ======= adver sectin start ====== --> */
+.adver {
+    background: #F8EDF0;
+    display: flex;
+}
+
+.adver-left {
+    margin-left: 150px;
+}
+
+.adver-right {
+    margin-top: 50px;
+}
+
+.tel {
+    filter: drop-shadow(-10px 10px 5px rgba(0, 0, 0, 0.25));
+    border-radius: 22px;
+    margin-top: 40px;
+    margin-right: 130px;
+    margin-bottom: 40px;
+}
+
+.adver-h2 {
+    font-size: 44px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.adver-p {
+    width: 607px;
+    font-style: 18px;
+    letter-spacing: 0.08em;
+    padding-bottom: 30px;
+}
+
+.adver-li {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.group-91 {
+    background: #fff;
+    padding: 5px 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.go-ap {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- ======= adver section end ======== --> */
+/* <!-- ======= form section start ====== --> */
+.form {
+    height: 450px;
+}
+
+.active-form {
+    margin-left: 330px;
+}
+
+.form-h3 {
+    width: 522px;
+    height: 123px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 430px;
+    margin-bottom: 36px;
+}
+
+.InBox {
+    width: 303px;
+    height: 74px;
+    background: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 37px;
+    padding: 25px 29px;
+}
+
+.inp-2 {
+    width: 637px;
+}
+
+/* .btn-4 {
+    margin-left: -138px;
+    width: 134px;
+    height: 74px;
+} */
+
+/* <!-- ======= form section end ====== --> */
+/* ======= Footer section start */
+.footer {
+    height: 400px;
+    background: #0A0808;
+    color: #fff;
+    display: flex;
+}
+
+.footer-main {
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.footer-p {
+
+    width: 207px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.footer-img {
+    width: 20px;
+    margin-left: 10px;
+}
+.footer-h4 
+{
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+.footer-img{
+    margin-left: -5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.link-ul 
+{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.inp-4 {
+    width: 388px;
+    height: 55px;
+    border: 2px solid #D64374;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.link-li 
+{
+    line-height: 30px;
+    list-style: none;
+}
+.link-a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.ul-2
+{
+    margin-top: 90px;
+}
+.send-form 
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.inp-4 
+{
+    background: #000;
+width: 386px;
+height: 55px;
+border: 2px solid #D64374;
+box-sizing: border-box;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.btn-6
+{
+width: 125px;
+height: 56px;
+background: #D23166;
+border-radius: 5px;
+margin-left: -125px;
+border: none;
+}
+.send-h3 
+{
+    margin-left: 30px;
+}
+.bk
+{
+    margin-left: 28px;
+}
+/* ======= Footer section end */
